@@ -51,7 +51,7 @@ export default function Timeline() {
       <Title>Lista de dragões</Title>
       <Header>
         <Link route="create">
-          <Button>Adicionar</Button>
+          <Button data-testid="add-button">Adicionar</Button>
         </Link>
       </Header>
       {dragons && (
@@ -67,11 +67,16 @@ export default function Timeline() {
                 <Name>{name}</Name>
                 <Actions>
                   <Link route="edit" params={{ id }}>
-                    <Button>Editar</Button>
+                    <Button data-testid="edit-button">Editar</Button>
                   </Link>
-                  <Button onClick={() => handleDelete(id)}>Remover</Button>
+                  <Button
+                    data-testid="delete-button"
+                    onClick={() => handleDelete(id)}
+                  >
+                    Remover
+                  </Button>
                   <Link route="details" params={{ id }}>
-                    <Button>Detalhes</Button>
+                    <Button data-testid="details-button">Detalhes</Button>
                   </Link>
                 </Actions>
               </Itens>

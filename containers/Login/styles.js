@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import ContentComponent from '#/components/Content';
 
@@ -40,6 +40,12 @@ export const Input = styled.input`
   margin-bottom: 15px;
   background-color: #fff;
   border: 1px solid #e6ecf0;
+
+  ${({ error }) =>
+    error &&
+    css`
+      border: 1px solid red;
+    `}
 
   &::placeholder {
     color: #8899a6;

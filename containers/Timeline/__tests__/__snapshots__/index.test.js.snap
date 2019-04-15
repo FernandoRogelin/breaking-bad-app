@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timeline container Timeline snapshot 1`] = `
+<section
+  class="styles__Section-sc-150p1d9-0 iUVPOe"
+>
+  <h1
+    class="styles__Title-sc-150p1d9-1 IdGEn"
+  >
+    Lista de dragões
+  </h1>
+  <header
+    class="styles__Header-sc-150p1d9-7 gITzGW"
+  >
+    <button
+      class="Button-n3cyj4-0 styles__Button-sc-150p1d9-4 jBEnXM"
+      data-testid="add-button"
+    >
+      Adicionar
+    </button>
+  </header>
+</section>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login container Snapshot test 1`] = `
+<section
+  class="styles__Section-vyh5mw-0 cpPGWb"
+>
+  <div
+    class="Content-vb879o-0 styles__Content-vyh5mw-1 bVIPP"
+  >
+    <form
+      class="styles__Form-vyh5mw-3 jIFoNM"
+    >
+      <h1
+        class="styles__Title-vyh5mw-4 bCEKEo"
+      >
+        Entrar no site
+      </h1>
+      <div
+        class="styles__Wrapper-vyh5mw-2 kxYQQc"
+      >
+        <input
+          class="styles__Input-vyh5mw-5 bUdEyG"
+          data-testid="input-email"
+          id="email"
+          name="email"
+          placeholder="Login"
+          value=""
+        />
+        <input
+          class="styles__Input-vyh5mw-5 bUdEyG"
+          data-testid="input-password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        class="Button-n3cyj4-0 gTwdqt"
+        data-testid="button-submit"
+        disabled=""
+        type="submit"
+      >
+        Enviar
+      </button>
+    </form>
+  </div>
+</section>
+`;
