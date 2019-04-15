@@ -1,7 +1,3 @@
-## Prova para a empresa NTConsult
-
-Esta prova consiste em fazer uma chamada de API para conseguir dados de dragões, com isso se foi feito uma tela de login, para o usuário conseguir entrar no site, após logar se tem uma tela de dragões que existem, um botão para ver os detalhes do mesmo, adicionar um novo e remover um dragão.
-
 ## Instalação:
 
 Logo após fazer o git clone
