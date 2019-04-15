@@ -42,4 +42,8 @@ export const Button = styled(ButtonComponent)`
   left: -80px;
   padding: 1px 6px;
   position: absolute;
+
+  @media only screen and (max-width: 440px) {
+    left: -60px;
+  }
 `;

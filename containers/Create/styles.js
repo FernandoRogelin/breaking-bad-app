@@ -42,6 +42,10 @@ export const Button = styled(ButtonComponent)`
   left: -80px;
   padding: 1px 6px;
   position: absolute;
+
+  @media only screen and (max-width: 440px) {
+    left: -60px;
+  }
 `;
 
 export const Input = styled.input`
@@ -70,8 +74,7 @@ export const Input = styled.input`
 `;
 
 export const Actions = styled.div`
-  display: flex;
-  justify-content: flex-end;
+  padding-left: 30px;
 `;
 
 export const ButtonSubmit = styled(ButtonComponent)`

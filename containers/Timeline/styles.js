@@ -21,6 +21,10 @@ export const Itens = styled.div`
   &:not(:last-child) {
     border-bottom: solid 1px #ddd;
   }
+
+  @media only screen and (max-width: 440px) {
+    flex-direction: column;
+  }
 `;
 
 export const Name = styled.p`
@@ -55,4 +59,10 @@ export const Header = styled.header`
 
 export const Text = styled.p`
   margin: 0;
+
+  @media only screen and (max-width: 440px) {
+    &:last-child {
+      display: none;
+    }
+  }
 `;
