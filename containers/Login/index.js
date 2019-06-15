@@ -18,7 +18,7 @@ export default function Login() {
 
   function handleSubmit(values) {
     if (Conta.login === values.email && Conta.senha === values.password) {
-      Router.pushRoute('timeline');
+      Router.pushRoute('characters');
     }
   }
 

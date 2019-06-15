@@ -44,4 +44,3 @@ app
     console.log(ex.stack);
     process.exit(1);
   });
-

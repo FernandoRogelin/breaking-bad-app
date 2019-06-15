@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Episodes container Episodes snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="styles__Wrapper-rfloh5-0 exTLaU"
+    >
+      <header
+        class="styles__Header-rfloh5-8 fxHdmz"
+      >
+        <button
+          class="Button-n3cyj4-0 styles__Button-rfloh5-9 dRIKXK"
+          data-testid="handle-characters-page"
+        >
+          Return
+        </button>
+        <h1
+          class="styles__Title-rfloh5-1 gbHtjp"
+        >
+          Episodes List
+        </h1>
+      </header>
+      <div
+        class="Content-vb879o-0 styles__Content-rfloh5-5 cbhcUF"
+        data-testid="episodes-list"
+      >
+        <div
+          class="styles__Top-rfloh5-2 jTRakP"
+        >
+          <p
+            class="styles__Text-rfloh5-6 ewyQwF"
+          >
+            Title
+          </p>
+          <p
+            class="styles__Text-rfloh5-6 ewyQwF"
+          >
+            Actions
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

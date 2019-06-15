@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters container Characters snapshot 1`] = `
+<div>
+  <div>
+    <section
+      class="styles__Section-sc-1ixkgfy-8 gMoorc"
+    >
+      <h1
+        class="styles__Title-sc-1ixkgfy-5 gHHPKM"
+      >
+        Characters List
+      </h1>
+      <header
+        class="styles__Header-sc-1ixkgfy-6 dGfNBf"
+      >
+        <button
+          class="Button-n3cyj4-0 styles__Button-sc-1ixkgfy-7 faLEsp"
+          data-testid="all-episodes-button"
+        >
+          All episodes
+        </button>
+        <button
+          class="Button-n3cyj4-0 styles__Button-sc-1ixkgfy-7 faLEsp"
+          data-testid="quotes-button"
+        >
+          Quotes
+        </button>
+      </header>
+    </section>
+  </div>
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes container Quotes snapshot 1`] = `
+<div>
+  <div
+    class="styles__Wrapper-w22mi7-0 hCttmQ"
+  >
+    <header
+      class="styles__Header-w22mi7-9 ipfACt"
+    >
+      <button
+        class="Button-n3cyj4-0 styles__Button-w22mi7-10 hqkQwQ"
+        data-testid="handle-characters-page"
+      >
+        Return
+      </button>
+      <h1
+        class="styles__Title-w22mi7-1 cPtDXM"
+      >
+        Quotes List
+      </h1>
+    </header>
+    <div
+      class="Content-vb879o-0 styles__Content-w22mi7-5 beZUzH"
+      data-testid="quotes-list"
+    >
+      <div
+        class="styles__Top-w22mi7-2 jLuHzA"
+      >
+        <p
+          class="styles__Text-w22mi7-6 cCesFI"
+        >
+          Quotes
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

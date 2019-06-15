@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import App, { Container } from 'next/app';
 
-export default class DragonsApp extends App {
+export default class BreakingBadApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
     let pageProps = {};
 
@@ -19,14 +19,14 @@ export default class DragonsApp extends App {
     return (
       <Container>
         <Head>
-          <title>DragonsApp</title>
+          <title>BreakingBadApp</title>
         </Head>
         <style jsx global>{`
           body {
             margin: 0;
             padding: 0;
             background-color: #e6ecf0;
-            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
           }
         `}</style>
         <Component {...pageProps} />
